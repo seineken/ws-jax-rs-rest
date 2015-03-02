@@ -1,8 +1,8 @@
-# jee7.ws.rest
+# JAX-RS Rest Web Service
 
-Simple jee7 rest web service (tested in wildfly)
+Simple jax-rs rest web service (tested in wildfly)
 
-Start wildfly WILDFLY_HOME/bin/standalone.sh &
+WILDFLY_HOME/bin/standalone.sh &
 
 mvn wildfly:deploy
 
