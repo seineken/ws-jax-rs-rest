@@ -14,7 +14,7 @@ This project aims for a simple, yet deployable (tested in wildfly), REST Web Ser
 ```sh
       $ mvn wildfly:deploy
 ```
-  - traditionally maven 
+  - traditionally
 ```sh
       $ mvn clean package
       $ cp target/ROOT.war WILDFLY_HOME/standalone/deployments
