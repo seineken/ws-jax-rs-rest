@@ -9,12 +9,11 @@ This project aims for a simple, yet deployable (tested in wildfly), REST Web Ser
 ```sh
       $ WILDFLY_HOME/bin/standalone.sh &
 ```
- - Deploy
-  - with maven 
+ - Deploy with maven 
 ```sh
       $ mvn wildfly:deploy
 ```
-  - traditionally
+  - Deploy traditionally
 ```sh
       $ mvn clean package
       $ cp target/ROOT.war WILDFLY_HOME/standalone/deployments
