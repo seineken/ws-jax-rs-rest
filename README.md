@@ -1,6 +1,6 @@
-# RESTful Web Service with JAX-RS
+# RESTful Web Services with JAX-RS
 
-This project aims for a simple, yet deployable (tested in wildfly), REST Web Service with JAX-RS 
+Basic RESTful Web Services with JAX-RS 
 
 ## How to run application
 ### Traditionally (requires maven and wildfly)
