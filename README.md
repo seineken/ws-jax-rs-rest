@@ -21,7 +21,7 @@ Basic RESTful Web Services with JAX-RS
 ### With Docker
     to do
   
-Point browser to http://localhost:8080/rest/integration/user/67
+Point browser to http://localhost:8080/rest/authors/67
 
 
 
