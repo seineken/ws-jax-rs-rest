@@ -25,6 +25,10 @@ Basic RESTful Web Services with JAX-RS
 ```sh
       $ mvn wildfly:deploy -Dwildfly.username=admin -Dwildfly.password=1admin!
 ```
+- Undeploy with maven 
+```sh
+      $ mvn wildfly:undeploy -Dwildfly.username=admin -Dwildfly.password=1admin!
+```
 
 Point browser to http://localhost:8080/rest/authors/67
 
