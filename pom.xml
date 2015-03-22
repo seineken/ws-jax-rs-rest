@@ -17,7 +17,7 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:git://git@github.com:tecris/ws-jax-rs-rest.git</developerConnection>
+        <developerConnection>scm:git:git://github.com:tecris/ws-jax-rs-rest.git</developerConnection>
       <tag>rest.jax-rs-1.0.0</tag>
   </scm>
 
