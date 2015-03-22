@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.tecris.sample</groupId>
     <artifactId>rest.jax-rs</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
 
     <name>RESTful JAX-RS Web Service</name>
@@ -20,7 +20,8 @@
         <url>https://github.com/tecris/ws-jax-rs-rest.git</url>
         <connection>scm:git:git://github.com/tecris/ws-jax-rs-rest.git</connection>
         <developerConnection>scm:git:git@github.com:tecris/ws-jax-rs-rest.git</developerConnection>
-    </scm>
+      <tag>rest.jax-rs-1.0.0</tag>
+  </scm>
     
     <dependencyManagement>
         <dependencies>
