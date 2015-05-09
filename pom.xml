@@ -22,6 +22,19 @@
         <developerConnection>scm:git:git@github.com:tecris/ws-jax-rs-rest.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
+    
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.1.66:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.1.66:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencyManagement>
         <dependencies>
